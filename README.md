@@ -19,6 +19,15 @@ This is a JavaScript-based email sending service that demonstrates resilient ema
 2. Install dependencies using `npm install`
 3. Run tests using `npm test`
 
+## url to test 
+   http://localhost:4000/send-email
+   with request body
+   {
+      "to": "example435@gmail.com",
+      "subject": "Hello",
+      "body": "This is a test email."
+   }
+   
 ## Assumptions
 
 - Mock providers are used for demonstration purposes and simulate email sending behavior.
