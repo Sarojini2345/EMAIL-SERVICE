@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const EmailService = require('./src/EmailService');
 
 const app = express();
@@ -6,6 +7,7 @@ const port = process.env.PORT || 4000
 
 const emailService = new EmailService();
 
+app.use(cors()); // Allow all origins
 app.use(express.json()); // To parse JSON request bodies
 
 // API endpoint to send an email
