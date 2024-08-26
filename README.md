@@ -23,7 +23,7 @@ This is a JavaScript-based email sending service that demonstrates resilient ema
    http://localhost:4000/send-email
    with request body
    {
-      "to": "sarojinirath21712@gmail.com",
+      "to": "example435@gmail.com",
       "subject": "Hello",
       "body": "This is a test email."
    }
