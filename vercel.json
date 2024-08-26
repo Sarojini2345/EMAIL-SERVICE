@@ -3,6 +3,7 @@
     "routes": [
       {
         "src": "/send-email",
+        "methods": ["POST"],
         "dest": "server.js"
       }
     ]
